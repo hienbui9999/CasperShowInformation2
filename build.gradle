@@ -4,7 +4,7 @@ plugins {
 }
 
 group = 'com.casper.showinformation2'
-version = '1.0-SNAPSHOT'
+version = '0.3'
 
 repositories {
     mavenCentral()
@@ -32,7 +32,7 @@ publishing {
         mavenJava(MavenPublication) {
             groupId = 'com.casper.showinformation2'
             artifactId = 'caspershowinformation'
-            version = '0.2'
+            version = '0.3'
             from components.java
         }
     }
